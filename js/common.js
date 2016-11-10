@@ -11,9 +11,8 @@ document.createElement('main');
     
     
     	// анимация сэндвича
-	$("#sandwich, .menu_item").click(function () {
-		$("#sandwich").toggleClass("active");
-		$("header nav").slideToggle(300);
+	$(".select-buttons span").click(function () {
+		$(this).toggleClass("active");
 	});
 	
 	// слайдер
@@ -34,19 +33,6 @@ document.createElement('main');
 			}
 		]
 	});
-	
-	// тень от меню при прокрутке страницы больше чем 22px
-	$(window).scroll(function () {
-	  if ($(this).scrollTop() > 22) {
-		// бла-бла-бла
-			$('.main-menu').addClass('shadow');
-	  } else {
-		$('.main-menu').removeClass('shadow');
-	  }
-	});
-	
-	// анимация
-	new WOW().init();
 	
 	
 });
