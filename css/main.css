@@ -1017,4 +1017,92 @@ aside .select-buttons-wrapper {
     float: right;
     padding: 32px 0 22px; }
 
+.filter {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin-bottom: 54px; }
+  .filter .filter-left {
+    padding: 30px 0 17px 4px;
+    width: 299px;
+    float: left; }
+  .filter .inputboxes {
+    padding-bottom: 6px; }
+  .filter h5 {
+    font: 14px "Roboto", sans-serif;
+    margin: 0 0 6px; }
+    .filter h5 sup {
+      font-size: 10px; }
+  .filter .inputbox {
+    float: left;
+    width: 112px;
+    margin-right: 8px; }
+    .filter .inputbox label {
+      display: block;
+      font-size: 12px;
+      padding-bottom: 4px; }
+    .filter .inputbox input {
+      width: 100%;
+      border: 1px solid #999;
+      height: 27px;
+      text-align: right;
+      padding: 2px 8px 0;
+      background-color: #f4f5f6;
+      color: #a2a9b3;
+      font: 18px/23px "Roboto", sans-serif;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+  .filter .buttonarea {
+    padding: 22px 0 22px 23px; }
+    .filter .buttonarea input {
+      width: 182px;
+      height: 30px;
+      margin: 0;
+      line-height: 30px;
+      font-size: 13px; }
+
+.gray .subfilter {
+  padding-top: 14px; }
+  .gray .subfilter h2 {
+    font-size: 20px;
+    margin-bottom: 27px; }
+
+.filter-right {
+  float: left;
+  width: 376px;
+  background: url(../images/districts-map.png) no-repeat right center;
+  min-height: 300px; }
+  .filter-right ul {
+    margin: 0;
+    padding: 30px 0 26px; }
+    .filter-right ul li {
+      list-style: none;
+      padding-bottom: 10px; }
+      .filter-right ul li label {
+        font: 14px/18px "Roboto", sans-serif;
+        display: inline-block;
+        padding-left: 26px;
+        background: url(../images/r-1.png) no-repeat 0 0;
+        cursor: pointer; }
+      .filter-right ul li input {
+        display: none; }
+        .filter-right ul li input:checked + label {
+          background-position: 0 -18px; }
+      .filter-right ul li.item-2 label {
+        background-image: url(../images/r-2.png); }
+      .filter-right ul li.item-3 label {
+        background-image: url(../images/r-3.png); }
+      .filter-right ul li.item-4 label {
+        background-image: url(../images/r-4.png); }
+      .filter-right ul li.item-5 label {
+        background-image: url(../images/r-5.png); }
+      .filter-right ul li.item-6 label {
+        background-image: url(../images/r-6.png); }
+      .filter-right ul li.item-7 label {
+        background-image: url(../images/r-7.png); }
+      .filter-right ul li.item-8 label {
+        background-image: url(../images/r-8.png); }
+      .filter-right ul li.item-9 label {
+        background-image: url(../images/r-9.png); }
+
 /*# sourceMappingURL=main.css.map */
