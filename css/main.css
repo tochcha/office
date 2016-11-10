@@ -988,4 +988,33 @@ aside .select-buttons-wrapper {
   .office-info-area .wrapper {
     padding-bottom: 48px; }
 
+.contacts {
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  margin-bottom: 38px; }
+  .contacts .contacts-text {
+    padding: 54px 0 33px;
+    float: left;
+    width: 320px; }
+  .contacts .address {
+    font: 16px "Roboto", sans-serif;
+    color: #000;
+    padding-bottom: 10px; }
+    .contacts .address span {
+      font-size: 18px; }
+  .contacts .map-link {
+    padding-bottom: 72px; }
+    .contacts .map-link a {
+      font: 10px "Roboto", sans-serif;
+      text-decoration: underline; }
+  .contacts p {
+    margin-bottom: 14px; }
+    .contacts p a {
+      text-decoration: underline; }
+    .contacts p span {
+      color: #666; }
+  .contacts .img-box {
+    float: right;
+    padding: 32px 0 22px; }
+
 /*# sourceMappingURL=main.css.map */
