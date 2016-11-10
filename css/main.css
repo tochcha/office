@@ -1072,37 +1072,55 @@ aside .select-buttons-wrapper {
   width: 376px;
   background: url(../images/districts-map.png) no-repeat right center;
   min-height: 300px; }
-  .filter-right ul {
-    margin: 0;
-    padding: 30px 0 26px; }
-    .filter-right ul li {
-      list-style: none;
-      padding-bottom: 10px; }
-      .filter-right ul li label {
-        font: 14px/18px "Roboto", sans-serif;
-        display: inline-block;
-        padding-left: 26px;
-        background: url(../images/r-1.png) no-repeat 0 0;
-        cursor: pointer; }
-      .filter-right ul li input {
-        display: none; }
-        .filter-right ul li input:checked + label {
-          background-position: 0 -18px; }
-      .filter-right ul li.item-2 label {
-        background-image: url(../images/r-2.png); }
-      .filter-right ul li.item-3 label {
-        background-image: url(../images/r-3.png); }
-      .filter-right ul li.item-4 label {
-        background-image: url(../images/r-4.png); }
-      .filter-right ul li.item-5 label {
-        background-image: url(../images/r-5.png); }
-      .filter-right ul li.item-6 label {
-        background-image: url(../images/r-6.png); }
-      .filter-right ul li.item-7 label {
-        background-image: url(../images/r-7.png); }
-      .filter-right ul li.item-8 label {
-        background-image: url(../images/r-8.png); }
-      .filter-right ul li.item-9 label {
-        background-image: url(../images/r-9.png); }
+
+ul.distselect {
+  margin: 0;
+  padding: 30px 0 26px; }
+  ul.distselect li {
+    list-style: none;
+    padding-bottom: 10px; }
+    ul.distselect li label {
+      font: 14px/18px "Roboto", sans-serif;
+      display: inline-block;
+      padding-left: 26px;
+      background: url(../images/r-1.png) no-repeat 0 0;
+      cursor: pointer; }
+    ul.distselect li input {
+      display: none; }
+      ul.distselect li input:checked + label {
+        background-position: 0 -18px; }
+    ul.distselect li.item-2 label {
+      background-image: url(../images/r-2.png); }
+    ul.distselect li.item-3 label {
+      background-image: url(../images/r-3.png); }
+    ul.distselect li.item-4 label {
+      background-image: url(../images/r-4.png); }
+    ul.distselect li.item-5 label {
+      background-image: url(../images/r-5.png); }
+    ul.distselect li.item-6 label {
+      background-image: url(../images/r-6.png); }
+    ul.distselect li.item-7 label {
+      background-image: url(../images/r-7.png); }
+    ul.distselect li.item-8 label {
+      background-image: url(../images/r-8.png); }
+    ul.distselect li.item-9 label {
+      background-image: url(../images/r-9.png); }
+
+.map-page .wrapper {
+  padding: 2px 0; }
+
+.map-page aside {
+  float: left;
+  width: 179px;
+  padding: 39px 0 22px 21px; }
+
+.map-page .distselect {
+  padding: 0 0 16px; }
+
+.map-page .map-big {
+  float: right;
+  width: 1021px;
+  border-left: 2px solid #365785;
+  padding: 0 1px; }
 
 /*# sourceMappingURL=main.css.map */
