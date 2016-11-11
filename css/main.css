@@ -350,7 +350,7 @@ footer {
     list-style: none; }
     .districts ul li a {
       font: 14px/20px "Roboto", sans-serif;
-      text-decoration: none; }
+      text-decoration: underline; }
 
 .districts .d-img {
   float: left;
@@ -663,7 +663,7 @@ aside .select-buttons-wrapper {
     color: #fff;
     text-align: center;
     margin-left: -24px;
-    padding: 4px 0 0 22px; }
+    padding: 1px 0 0 22px; }
   .ifns-pricebox .footage {
     font: 14px/18px "Roboto Condensed", sans-serif; }
     .ifns-pricebox .footage sup {
@@ -848,7 +848,7 @@ aside .select-buttons-wrapper {
   width: 106px;
   height: 31px;
   text-align: center;
-  padding: 2px 0 0 14px;
+  padding: 1px 0 0 14px;
   float: right;
   color: #fff;
   font: 10px/11px "Roboto Condensed", sans-serif; }
