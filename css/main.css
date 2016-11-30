@@ -1123,4 +1123,34 @@ ul.distselect {
   border-left: 2px solid #365785;
   padding: 0 1px; }
 
+.withseach h3 {
+  font: 20px "Roboto", sans-serif;
+  margin: 0 0 13px;
+  color: #a2a9b3; }
+
+.withseach p {
+  color: #a2a9b3;
+  font: 16px "Roboto", sans-serif;
+  margin: 0 0 27px; }
+
+.withseach .select-buttons {
+  margin-bottom: 42px; }
+
+.search-field {
+  padding: 4px 3px 52px; }
+  .search-field input[type=text] {
+    float: left;
+    width: 544px;
+    height: 27px;
+    background-color: #f4f5f6;
+    border: 1px solid #999;
+    font: 14px/25px "Roboto", sans-serif;
+    color: #999;
+    padding: 0 10px;
+    margin: 0 6px 0 0; }
+  .search-field input[type=submit] {
+    height: 27px;
+    line-height: 26px;
+    float: right; }
+
 /*# sourceMappingURL=main.css.map */
